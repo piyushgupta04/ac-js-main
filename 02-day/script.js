@@ -291,3 +291,21 @@ const myArrowVow = (str) => {
   }
   return count;
 };
+
+// ! for each functions/ methods
+// ye topic or aache se padhna ha aabhi
+
+let myNewArr = [1, 54, 4, 34, 56, 435,]
+myNewArr.forEach ((val,idx, arr) => {
+  console.log(val * val)
+  
+})
+
+
+// ye ek arrow fn ko bhi pass kara sakte the,
+// let suppose
+let myNewArrowFn = (x) => {
+    console.log(`This is an arrow fn output which is ${x*x}`);
+};
+
+myNewArr.forEach(myNewArrowFn);
