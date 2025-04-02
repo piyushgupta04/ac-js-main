@@ -174,7 +174,7 @@ for (let number of myArr) {
 }
 
 // practice set
-let marks = [45, 45, 76, 17, 65, 76];
+// let marks = [45, 45, 76, 17, 65, 76];
 // ye bana liya array
 // avg nikalne ke liye total matlab length pata hona chaiye and in sab ka sum,
 // pahle length nikal lete ha
@@ -307,5 +307,73 @@ myNewArr.forEach ((val,idx, arr) => {
 let myNewArrowFn = (x) => {
     console.log(`This is an arrow fn output which is ${x*x}`);
 };
-
 myNewArr.forEach(myNewArrowFn);
+
+// ! maps
+let arr1 = [45, 43, 75, 67, 76768, 224]
+let newArr1 = arr1.map((val) => {
+  return val * 2;
+})
+
+// ! filter
+let evenArr1 = arr1.filter((val) => {
+  return val % 2 === 0;
+})
+
+// console.log(evenArr1)
+
+let storeArr = () => {
+  console.log(`this is arrow function`)
+}
+
+/* 
+! if you feel that you stuck on any topic, please go through and watch that topic rather then doing again from start!
+link- https://www.youtube.com/watch?v=P0XMXqDGttU&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&index=8
+* 00:01 Functions in JavaScript are blocks of code that perform specific tasks.
+* 01:59 Functions in JavaScript allow us to perform the same work repeatedly.
+* 05:55 Functions in JavaScript are defined using the function keyword, followed by the function name, parentheses, and curly braces.
+* 08:01 Function is defined but needs to be called to execute its code.
+* 12:22 Understanding function parameters and arguments
+* 14:31 Functions in JavaScript can take input, perform tasks, and return values.
+* 18:27 Locals act like local variables
+* 20:32 Introduction to Arrow Functions
+* 24:18 Arrow functions in JavaScript are used for small tasks and can be stored inside variables.
+* 26:06 Functions can be used to perform calculations and print values.
+* 30:02 Count the occurrence of vowels in a given string
+* 32:07 VS Code improved our code and introduced helpful extensions
+* 36:09 Functions and methods in JavaScript
+* 38:06 Functions in JavaScript can be passed as arguments to other functions.
+* 41:51 Higher order functions are functions that call other functions or use a function as a parameter or return a function.
+* 43:44 Print the square of each value in a given array of numbers using the forEach loop
+* 47:23 The map function in JavaScript can be used to perform operations on each element of an array and generate a new array.
+* 49:13 Functions and methods in JavaScript
+* 52:47 Reduce method in JavaScript reduces an array to a single value
+* 54:33 The code demonstrates the use of the reduce method in JavaScript to calculate the sum of an array.
+* 58:12 JavaScript reduce method is used to find the largest element in an array.
+* 59:57 Filter out marks of students that scored 90 plus
+* 1:04:01 Use the reduce method to calculate the sum of numbers in the array
+* 1:06:01 The video explains how to calculate the factorial of a number using JavaScript's reduce method.  
+*/
+
+// practice set
+let marks = [54, 67, 87, 43, 91, 67, 94, 84]
+let filterArr = marks.filter((mark) => {
+  return mark > 90;
+})
+
+console.log(filterArr);
+
+let n = prompt ("Enter a number: ")
+let arr34 = []
+for (i=1; i<=n; i++){
+  arr34[i-1] = i
+}
+let sum = arr34.reduce((prev, curr) => {
+  return prev + curr;
+})
+console.log(sum)
+
+let factorial = arr34.reduce ((prev, curr) => {
+  return prev * curr;
+})
+console.log(factorial)
