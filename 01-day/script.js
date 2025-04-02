@@ -54,3 +54,5 @@ const profile = {
     profession: "Entrepreneur",
     userBio: "lorem10",
 }
+
+console.log("You have learned about variables and datatypes in lecture 1");
