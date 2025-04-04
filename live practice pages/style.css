@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Delius+Swash+Caps&family=Noto+Color+Emoji&family=Roboto+Slab:wght@100..900&display=swap');
+
+.font0 {
+    font-family: "Delius";
+  }
+  
+  .font1 {
+    font-family: "Delius Swash Caps";
+  }
+  
+  .font2 {
+    font-family: "Roboto Slab";
+  }
+  
+  .font3 {
+    font-family: "Noto Color Emoji";
+  }
+  
+  .font4 {
+    font-family: "Arvo";
+  }
+  
