@@ -3,3 +3,7 @@ instructions.txt
 live practice pages/package-lock.json
 live practice pages/package.json
 /live practice pages/src
+/live practice pages (not to deploy)/node_modules
+live practice pages (not to deploy)/package-lock.json
+live practice pages (not to deploy)/package.json
+live practice pages (not to deploy)/src/input.css
