@@ -89,3 +89,9 @@ console.dir(boxes)
 // ! yaha code revise karke loop bana ke karo yahi same cheez
 // lecture khatam!
 // lecture 6 khatam!, bass ye practice wala revise karke karlo
+let count = 1
+for (let box of boxes){
+    box.innerText = `Hello, I'm Unique Box ${count}`
+    count ++
+}
+
